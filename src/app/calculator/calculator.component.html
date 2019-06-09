@@ -1,0 +1,20 @@
+<p>
+  calculator works!
+</p>
+<div class="form-group">
+<!--  <form method="post">-->
+  <input type="text" class="form-control"  [(ngModel)]="number1">
+  <select class="form-control"  [(ngModel)]="cal">
+    <option value="addition">+</option>
+    <option value="subtraction">-</option>
+    <option value="multiplication">x</option>
+    <option value="division">/</option>
+  </select>
+  <input type="text" class="form-control" [(ngModel)]="number2">
+    <button (click)="result()" >thuc thi</button>
+<!--  </form>-->
+  <p>
+    ket qua : {{kq}}
+  </p>
+</div>
+
